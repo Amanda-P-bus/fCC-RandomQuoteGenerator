@@ -21,6 +21,9 @@ const getRandomColor = (): string =>
    return `rgb(${getR}, ${getB}, ${getG})`
   }
 
+const transition = "all 1s";
+
+
 function App() {
 
 const [quote, setQuote] = useState<Quote>(getRandomQuote());
@@ -40,16 +43,16 @@ const changeQuote = () => {setQuote(getRandomQuote()); setRandomColor(getRandomC
     <div id="quote-box">
 
       <div id="catch-quote">
-        <FaQuoteLeft size={30} style={{color: randomColor, marginLeft: "3vh"}} />
+        <FaQuoteLeft size={30} style={{color: randomColor, marginLeft: "3vh", transition}} />
         <div id="text">{quote.quote}
         </div>
         
-        <FaQuoteRight size={30} style={{marginLeft:"68vh", color: randomColor}} /> 
+        <FaQuoteRight size={30} style={{marginLeft:"68vh", color: randomColor, transition}} /> 
         
-        <div id="author" style={{backgroundColor: randomColor}}>-{quote.author}</div>
+        <div id="author" style={{backgroundColor: randomColor, transition}}>-{quote.author}</div>
       </div>
             <div id="holdBtns">
-      <button id="new-quote" onClick={changeQuote}>New Quote</button>
+      <button id="new-quote" onClick={changeQuote} style={{backgroundColor: randomColor, transition}}>New Quote</button>
         <button id="maybe">
         <a  id="tweet-quote" target="_blank" href="twitter.com/intent/tweet"><FaTwitter style={{marginBottom: "-.5vh", paddingLeft: "1vh"}} /></a>
         </button>  
