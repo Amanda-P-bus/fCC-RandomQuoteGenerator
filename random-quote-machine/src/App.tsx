@@ -40,11 +40,11 @@ const changeQuote = () => {setQuote(getRandomQuote()); setRandomColor(getRandomC
     <div id="quote-box">
 
       <div id="catch-quote">
-        <FaQuoteLeft size={30} style={{marginLeft: "3vh"}} />
+        <FaQuoteLeft size={30} style={{color: randomColor, marginLeft: "3vh"}} />
         <div id="text">{quote.quote}
         </div>
         
-        <FaQuoteRight size={30} style={{marginLeft:"68vh"}} /> 
+        <FaQuoteRight size={30} style={{marginLeft:"68vh", color: randomColor}} /> 
         
         <div id="author" style={{backgroundColor: randomColor}}>-{quote.author}</div>
       </div>

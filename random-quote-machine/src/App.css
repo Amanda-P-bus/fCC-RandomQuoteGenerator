@@ -1,15 +1,15 @@
 .background {
     margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; width: auto;}
 
-h1 {font-size: 6vh; text-align: center; color: white;}
+h1 {font-size: 5.5vh; text-align: center; color: white;}
 
-#quote-box { border-radius: 10px; width: 75vh; padding-top: 15px; padding-bottom: 15px; background-color: rgb(21, 19, 19); box-shadow: 13px 13px 10px 3px rgb(48, 45, 45);}
+#quote-box {border: 3px solid rgb(21,19,19); border-radius: 10px; width: 75vh; padding-top: 15px; padding-bottom: 15px; background-color: rgb(48, 45, 45); box-shadow: 13px 13px 10px 3px rgb(21,19,19);}
 
 #catch-quote {width: 70vh;}
 
 #text {flex-wrap: wrap; font-size: 3.5vh; margin-left: 8vh; padding-top: 1vh; }
 
-#author {text-align: right; font-size: 3.5vh; margin-right: 4vh; padding-top: 1.5vh; padding-right: 2vh; padding-bottom: 0.5vh; background-color: rgb(15, 181, 223); border: solid 5px rgb(21,19,19);}
+#author {text-align: right; font-size: 3.5vh; margin-right: 4vh; padding-top: 1.5vh; padding-right: 2vh; padding-bottom: 0.5vh; background-color: rgb(15, 181, 223); border: solid 3px rgb(21,19,19); border-left: none;}
 
 #holdBtns { margin-top: 1vh; padding-top: 1vh; padding-bottom: 2vh; margin-bottom: -2vh;}
 
