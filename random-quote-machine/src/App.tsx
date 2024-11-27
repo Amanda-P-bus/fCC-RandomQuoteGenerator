@@ -1,5 +1,6 @@
 import { useState } from 'react'
 
+
 import './App.css'
 
 interface Quote {
@@ -7,7 +8,7 @@ interface Quote {
   author: string;
 }
 
-const getRandomQuote = (): Quote => {return quotes}
+const getRandomQuote = (): Quote => {return quotes }
 
 function App() {
 const [quote, setQuote] = useState<Quote>(getRandomQuote());
