@@ -9,7 +9,7 @@ h1 {font-size: 5.5vh; text-align: center; color: white;}
 
 #text {flex-wrap: wrap; font-size: 3.5vh; margin-left: 8vh; padding-top: 1vh; }
 
-#author {text-align: right; font-size: 3.5vh; margin-right: 4vh; padding-top: 1.5vh; padding-right: 2vh; padding-bottom: 0.5vh; background-color: rgb(15, 181, 223); border: solid 3px rgb(21,19,19); border-left: none;}
+#author {text-align: right; font-size: 3.5vh; margin-right: 4vh; padding-top: 1.5vh; padding-right: 2vh; padding-bottom: 0.5vh; background-color: rgb(15, 181, 223); border: solid 3px rgb(21,19,19); border-left: none; border-bottom-right-radius: 10px; border-top-right-radius: 10px;}
 
 #holdBtns { margin-top: 1vh; padding-top: 1vh; padding-bottom: 2vh; margin-bottom: -2vh;}
 
