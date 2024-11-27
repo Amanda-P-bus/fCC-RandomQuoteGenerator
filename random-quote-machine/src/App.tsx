@@ -4,7 +4,7 @@ import {FaTwitter, FaQuoteLeft, FaQuoteRight} from "react-icons/fa"
 import quotes from "./assets/quotes.json"
 
 import './App.css'
-import { BiAlignRight } from 'react-icons/bi';
+
 
 interface Quote {
   quote: string;
@@ -54,7 +54,7 @@ const changeQuote = () => {setQuote(getRandomQuote()); setRandomColor(getRandomC
             <div id="holdBtns">
       <button id="new-quote" onClick={changeQuote} style={{backgroundColor: randomColor, transition}}>New Quote</button>
         <button id="maybe">
-        <a  id="tweet-quote" target="_blank" href="twitter.com/intent/tweet"><FaTwitter style={{marginBottom: "-.5vh", paddingLeft: "1vh"}} /></a>
+        <a  id="tweet-quote" target="_blank" href="twitter.com/intent/tweet"><FaTwitter /></a>
         </button>  
       </div>
       </div>
