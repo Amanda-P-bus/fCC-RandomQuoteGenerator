@@ -17,7 +17,7 @@ h1 {font-size: 5.5vh; text-align: center; color: white;}
 
 #maybe { background-color:  rgb(3, 181, 220); border-radius: 15px; margin-left: 10vh; font-size: 3vh; padding: .75vh; border: solid 3px rgb(21,19,19);}
 
-#tweet-quote {color:white; text-decoration: none; font-size: 3.5vh; padding-right: .75vh;}
+#tweet-quote {color:white; text-decoration: none; font-size: 3.5vh; padding-right: .5vh; padding-left: .5vh;}
 
 
 
