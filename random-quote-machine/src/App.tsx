@@ -32,7 +32,6 @@ const [randomColor, setRandomColor] = useState<string>(getRandomColor());
 
 const changeQuote = () => {setQuote(getRandomQuote()); setRandomColor(getRandomColor())} ;
 
-
   return   (
   
   <div id="mainDiv" className="background" style={{backgroundColor: randomColor}}>
